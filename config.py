@@ -1,7 +1,7 @@
 import os
 
 # Bot token @Botfather
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7312209135:AAHTFXI6lrhegf35dJf9es8nOndA2734uWw")
 
 # Your API ID from my.telegram.org
 API_ID = int(os.environ.get("API_ID", "20447356"))
@@ -18,4 +18,4 @@ DB_URI = os.environ.get("DB_URI", "mongodb+srv://pborah351:5stmSweSMx0@cluster0.
 DB_NAME = os.environ.get("DB_NAME", "vjsavecontentbot")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
-ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', False))
+ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
